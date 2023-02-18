@@ -1,0 +1,100 @@
+body{
+    background-color: rgb(117 61 198);
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+.heading{
+    padding-top: 15rem;
+    transform: rotate(-40deg);
+}
+.heading h1{
+    border-bottom: 1px solid black;
+    font-size: 3rem;
+}
+
+.container{ 
+    vertical-align: middle;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    width: 50rem;
+    height: 50rem;
+}
+
+#start-btn  input {
+    border:0;
+    background-color: #F0EEB4;
+    width:10rem;
+    height:5rem;
+    border-radius: 15%;
+}
+.gameContainer{
+    height: 90vh;    
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gameContainer .scoreDisplay {
+    justify-content: center;
+    height: 2rem;
+    width: 100%;
+    color:#F0EEB4;
+    padding-bottom: 5rem;
+}
+
+.computerCard {
+    width: 100vw;
+    height: 40vh;
+    border-bottom: 1px solid black;
+  
+}
+.playerCard{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 51vh;
+    
+    justify-items: center;
+}
+.playerCard > .player-move-display {
+    margin-top: 5rem;
+    width: auto;
+    height: 70%;
+}
+.computer-move-display{
+    margin-top: 5rem;
+    width: auto;
+    height: 15rem;
+}
+
+.playerCard .player-move-display img {
+    width: auto;
+    height: 15rem;
+}
+.computer-move-display img{
+    width: auto;
+    height: 15rem;
+    transform: rotate(180deg);
+}
+.playerCard .buttons button {
+    border:0;
+    background-color: #F0EEB4;
+    width:10rem;
+    height:5rem;
+    border-radius: 15%;
+}
+
+#reset{
+    margin-top: 5%;
+    /* margin-left: 47%; */
+    border:0;
+    background-color: #F0EEB4;
+    width:10rem;
+    height:5rem;
+    border-radius: 15%;
+}
